@@ -13,6 +13,10 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
       </div>
 
       <div className={styles.categoryHeader}>
+        <h4>Will be available soon...</h4>
+      </div>
+
+      {/* <div className={styles.categoryHeader}>
         <h4>Machine Learning</h4>
       </div>
       <div className={styles.container}>
@@ -46,7 +50,7 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
         {misc_projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };

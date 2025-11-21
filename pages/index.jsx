@@ -10,29 +10,23 @@ export default function HomePage({ experience }) {
         <div className={styles.heroContent}>
           <div className={styles.textSection}>
             <h1 className={styles.name}>Anis Zouaghi</h1>
-            <h2 className={styles.title}>Machine Learning Engineer</h2>
+            <h2 className={styles.title}>Software Engineer</h2>
 
             <p className={styles.description}>
-              PhD Machine Learning Engineer with 8+ years building production ML systems
-              for LLMs, Computer Vision, NLP, and real-time data pipelines at scale.
-              Led cross-functional initiatives integrating GenAI, RAG pipelines, and
-              traditional ML into scalable production platforms.
+              Experienced Software Engineer at DZExpert with a strong background in developing and
+              maintaining high-performance applications. Proficient in multiple programming languages
+              and frameworks, I leverage my skills to drive innovation and efficiency in every project.
             </p>
 
             <div className={styles.expertise}>
               <div className={styles.expertiseTitle}>Specialization</div>
               <div className={styles.expertiseGrid}>
-                <span className={styles.expertiseTag}>LLMs & GenAI</span>
-                <span className={styles.expertiseTag}>Agentic Workflows</span>
-                <span className={styles.expertiseTag}>Prompt Engineering & RAG</span>
-                <span className={styles.expertiseTag}>Computer Vision</span>
+                <span className={styles.expertiseTag}>Mobile</span>
+                <span className={styles.expertiseTag}>Web</span>
+                <span className={styles.expertiseTag}>ERP</span>
                 <span className={styles.expertiseTag}>NLP</span>
-                <span className={styles.expertiseTag}>Applied Research</span>
-                <span className={styles.expertiseTag}>AWS & Azure</span>
-                <span className={styles.expertiseTag}>Apache Spark</span>
-                <span className={styles.expertiseTag}>Docker</span>
-                <span className={styles.expertiseTag}>Python</span>
-                <span className={styles.expertiseTag}>PyTorch</span>
+                <span className={styles.expertiseTag}>Cloud Computing</span>
+                <span className={styles.expertiseTag}>Networks</span>
               </div>
             </div>
 
@@ -50,7 +44,7 @@ export default function HomePage({ experience }) {
             <div className={styles.imageWrapper}>
               <Image
                 className={styles.profileImage}
-                src="/me.jpeg"
+                src="/me.jpg"
                 width={280}
                 height={280}
                 alt="anis zouaghi"

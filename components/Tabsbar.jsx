@@ -8,7 +8,7 @@ const initialTabs = [
   { id: 'resume', icon: '/html_icon.svg', filename: 'resume.html', path: '/resume' },
   { id: 'contact', icon: '/yml_icon.svg', filename: 'contact.yml', path: '/contact' },
   { id: 'projects', icon: '/py_icon.svg', filename: 'projects.py', path: '/projects' },
-  { id: 'papers', icon: '/json_icon.svg', filename: 'papers.json', path: '/papers' },
+  // { id: 'papers', icon: '/json_icon.svg', filename: 'papers.json', path: '/papers' },
   { id: 'github', icon: '/markdown_icon.svg', filename: 'github.md', path: '/github' },
 ];
 

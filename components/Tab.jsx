@@ -20,7 +20,7 @@ const Tab = ({ icon, filename, path, index, isDragging, isDragOver, onDragStart,
       );
 
       // If mouse moved less than 5 pixels, consider it a click
-      if (distance < 5) {
+      if (distance < 4) {
         router.push(path);
       }
     }

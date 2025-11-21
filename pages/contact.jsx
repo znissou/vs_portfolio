@@ -4,39 +4,39 @@ const ContactPage = () => {
   const contactMethods = [
     {
       name: 'Email',
-      value: 'gkos.mldev@gmail.com',
-      href: 'mailto:gkos.mldev@gmail.com',
+      value: 'anis@zouaghi.dev',
+      href: 'mailto:anis@zouaghi.dev',
       icon: '✉',
       description: 'Primary contact method'
     },
     {
       name: 'LinkedIn',
-      value: 'linkedin.com/in/drkostas',
-      href: 'https://www.linkedin.com/in/drkostas',
+      value: 'in/anis-zouaghi',
+      href: 'https://www.linkedin.com/in/anis-zouaghi',
       icon: '💼',
       description: 'Professional network'
     },
     {
       name: 'GitHub',
-      value: 'github.com/drkostas',
-      href: 'https://github.com/drkostas',
+      value: 'github.com/znissou',
+      href: 'https://github.com/znissou',
       icon: '💻',
       description: 'Open source projects'
-    },
-    {
-      name: 'Google Scholar',
-      value: 'Research Publications',
-      href: 'https://scholar.google.com/citations?user=FlFym8kAAAAJ',
-      icon: '🎓',
-      description: 'Academic profile'
-    },
-    {
-      name: 'PyPi',
-      value: 'pypi.org/user/drkostas',
-      href: 'https://pypi.org/user/drkostas',
-      icon: '📦',
-      description: 'Python packages'
     }
+    // {
+    //   name: 'Google Scholar',
+    //   value: 'Research Publications',
+    //   href: 'https://scholar.google.com/citations?user=FlFym8kAAAAJ',
+    //   icon: '🎓',
+    //   description: 'Academic profile'
+    // },
+    // {
+    //   name: 'PyPi',
+    //   value: 'pypi.org/user/drkostas',
+    //   href: 'https://pypi.org/user/drkostas',
+    //   icon: '📦',
+    //   description: 'Python packages'
+    // }
   ];
 
   return (
@@ -44,20 +44,19 @@ const ContactPage = () => {
       <div className={styles.content}>
         <div className={styles.header}>
           <h1 className={styles.title}>Get In Touch</h1>
-          <p className={styles.subtitle}>Machine Learning Engineer • Applied Scientist @ Amazon • PhD @ UTK</p>
+          <p className={styles.subtitle}>Software Engineer • Senior Developer @ DzExpert</p>
         </div>
 
         <div className={styles.bio}>
           <p>
-            PhD Machine Learning Engineer with 8+ years building production ML systems for Large Language Models, NLP,
-            Computer Vision, and real-time data pipelines at scale. Co-founded XPensAI, leading development of core ML
-            algorithms for automated expense tracking and receipt processing, achieving 95% accuracy on receipt scanning.
-            Designed multi-agent LLM frameworks at Amazon, improving functional success rates by 12% through rigorous
-            experimentation and production monitoring.
+            Passionate Software Engineer with experience building web and mobile applications, ERP integrations,
+            and AI-powered solutions for real-world business needs. Skilled in Flutter, Odoo, Python,
+            and modern cloud and DevOps practices, with a solid background in computer networks and NLP.
           </p>
           <p>
-            Proven track record deploying GenAI, RAG pipelines, and traditional ML solutions that drive measurable business
-            impact. Published 8 papers at top-tier AI conferences including NeurIPS, ICCV, WACV, IGARSS, and CHASE.
+            Currently working at DzExpert, contributing to ERP solutions, Android and Flutter apps, CI/CD pipelines,
+            and advanced Business Intelligence dashboards for better enterprise decision‑making. Always motivated to
+            learn, experiment, and take part in the ongoing software revolution.
           </p>
         </div>
 

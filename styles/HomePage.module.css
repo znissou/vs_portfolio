@@ -184,9 +184,8 @@
   bottom: 2rem;
   width: 2px;
   background: linear-gradient(to bottom,
-    var(--accent-color),
-    rgba(255, 255, 255, 0.15)
-  );
+      var(--accent-color),
+      rgba(255, 255, 255, 0.15));
 }
 
 .timelineItem {
@@ -272,6 +271,8 @@
   line-height: 1.65;
   margin: 0;
   opacity: 0.82;
+  white-space: pre-line;
+
 }
 
 /* Laptop screens - reduce gap */
@@ -547,4 +548,3 @@
     font-size: 0.82rem;
   }
 }
-

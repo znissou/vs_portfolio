@@ -34,12 +34,14 @@ const GithubPage = () => {
         const repoRes = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`);
         const reposData = await repoRes.json();
 
-        // Fetch additional important research repo
-        const additionalRepoRes = await fetch(`https://api.github.com/repos/aicip/Cross-Scale-MAE`);
-        const additionalRepo = await additionalRepoRes.json();
+        // // Fetch additional important research repo
+        // const additionalRepoRes = await fetch(`https://api.github.com/repos/aicip/Cross-Scale-MAE`);
+        // const additionalRepo = await additionalRepoRes.json();
 
         // Combine and sort by stars
-        let repos = [...reposData, additionalRepo];
+        // let repos = [...reposData, additionalRepo];
+
+        let repos = reposData;
         repos = repos.sort((a, b) => b.stargazers_count - a.stargazers_count);
 
         setAllRepos(repos);
@@ -82,7 +84,7 @@ const GithubPage = () => {
 
   return (
     <>
-      <a href="https://github.com/drkostas" target="_blank" rel="noopener" className={styles.no_color}>
+      <a href="https://github.com/znissou" target="_blank" rel="noopener" className={styles.no_color}>
         <div className={styles.user}>
           <div>
             <Image
@@ -133,7 +135,7 @@ const GithubPage = () => {
           </button>
         </div>
       </div>
-      <hr/>
+      <hr />
 
       <div className={styles.container}>
         {displayedRepos.map((repo) => (
