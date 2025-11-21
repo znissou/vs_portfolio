@@ -127,4 +127,4 @@
 //   };
 // }
 
-// export default PapersPage;
+export default PapersPage;
